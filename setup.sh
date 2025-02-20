@@ -58,7 +58,7 @@ echo -e "$green                ____ ____ _  _$NC"
 echo -e "$green                [__  [__  |__|$NC"
 echo -e "$green                ___] ___] |  |$NC"
 echo -e "$green                $NC"                                                                                                                          
-echo -e "$green♥ TERIMAKSIH TELAH MEMAKAI SCRIPT PIANSTORE ♥$NC"
+echo -e "$green😈 TERIMAKSIH TELAH MEMAKAI SCRIPT PIANSTORE 😈$NC"
 sleep 2
 sleep 5
 echo -e  "${green}┌──────────────────────────────────────────┐${NC}"
@@ -423,8 +423,8 @@ res9
 function iinfo(){
 domain=$(cat /etc/xray/domain)
 TIMES="10"
-CHATID="1210833546"
-KEY="6006599143:AAEgstCAioq35JgX97HaW_G3TAkLKzLZS_w"
+CHATID="6631695782"
+KEY="7830319313:AAEq-OTFRD3qYCTxqCr9TU2fVA3vFO6gHYE"
 URL="https://api.telegram.org/bot$KEY/sendMessage"
 ISP=$(cat /etc/xray/isp)
 CITY=$(cat /etc/xray/city)
@@ -452,7 +452,7 @@ TEXT="
 <code>EXP SCRIPT : </code><code>$EXP Days</code>
 <code>━━━━━━━━━━━━━━━━━━━━</code>
 <i> Notifikasi Installer Script...</i>
-"'&reply_markup={"inline_keyboard":[[{"text":"🔥ᴏʀᴅᴇʀ","url":"https://t.me/kytxz"},{"text":"🔥GRUP","url":"https://t.me/kytxz"}]]}'
+"'&reply_markup={"inline_keyboard":[[{"text":"🔥ᴏʀᴅᴇʀ","url":"https://t.me/pianstore01"},{"text":"🔥GRUP","url":"https://t.me/pianstore01"}]]}'
 curl -s --max-time $TIMES -d "chat_id=$CHATID&disable_web_page_preview=1&text=$TEXT&parse_mode=html" $URL >/dev/null
 clear
 }
@@ -553,7 +553,7 @@ echo  ""
 cd
 iinfo
 echo -e "${green}┌────────────────────────────────────────────┐${NC}"
-echo -e "${green}│  INSTALL SCRIPT SELESAI..                  │${NC}"
+echo -e "${green}│  INSTAL SCRIPT PIAN SELESAI..               │${NC}"
 echo -e "${green}└────────────────────────────────────────────┘${NC}"
 echo  ""
 sleep 4
