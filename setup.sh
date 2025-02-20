@@ -197,8 +197,8 @@ fi
 if [[ $domain == "2" ]]; then
 clear
 echo -e  "${green}┌──────────────────────────────────────────┐${NC}"
-echo -e  "${green}│  \033[1;37mContoh subdomain ( myrid )                    ${green}│${NC}"
-echo -e  "${green}│    \033[1;37mxxx.xwan.me jadi subdomain kamu               ${green}│${NC}"
+echo -e  "${green}│  \033[1;37mContoh subdomain ( pian )                    ${green}│${NC}"
+echo -e  "${green}│    \033[1;37mxxx.pianstore.my.id jadi subdomain kamu               ${green}│${NC}"
 echo -e  "${green}└──────────────────────────────────────────┘${NC}"
 echo " "
 until [[ $dn1 =~ ^[a-zA-Z0-9_.-]+$ ]]; do
