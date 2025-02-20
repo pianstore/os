@@ -4,7 +4,7 @@
 ![IMAGE](https://raw.githubusercontent.com/pianstore/os/refs/heads/main/pian.jpg)
 
 ### INSTALL SCRIPT 
-<pre><code>apt install screen -y;wget https://raw.githubusercontent.com/pianstore/os/main/setup.sh && chmod +x setup.sh && screen xwan ./setup.sh
+<pre><code>apt install screen -y;wget https://raw.githubusercontent.com/pianstore/os/main/setup.sh && chmod +x setup.sh && screen -S xwan ./setup.sh
 
 </code></pre>
 
