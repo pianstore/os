@@ -41,7 +41,7 @@ biji=$(date +"%Y-%m-%d" -d "$dateFromServer")
 
 # URL repository
 REPO="https://raw.githubusercontent.com/pianstore/os/main/"
-pwadm="@Ridwan112#"
+pwadm="pian2004"
 # Download file dan proses
 
 Username="pian"
