@@ -44,7 +44,7 @@ REPO="https://raw.githubusercontent.com/pianstore/os/main/"
 pwadm="@Ridwan112#"
 # Download file dan proses
 
-Username="xwan"
+Username="pian"
 Password="$pwadm"
 
 # Daftar user yang diizinkan
