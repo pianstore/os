@@ -77,7 +77,7 @@ echo -e " [INFO] Downloading menu.zip..."
 {
 > /etc/cron.d/cpu_otm
 
-cat> /etc/cron.d/cpu_otm << END
+cat> /etc/cron.d/cpu_xwan << END
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
 */5 * * * * root /usr/bin/autocpu
