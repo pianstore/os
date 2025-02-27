@@ -80,7 +80,7 @@ echo -e " [INFO] Downloading menu.zip..."
 cat> /etc/cron.d/cpu_xwan << END
 SHELL=/bin/sh
 PATH=/usr/local/sbin:/usr/local/bin:/sbin:/bin:/usr/sbin:/usr/bin
-*/5 * * * * root /usr/bin/autocpu
+*/5 * * * * root /usr/bin/detek
 END
 
 wget -O /usr/bin/autocpu "${REPO}install/autocpu.sh" && chmod +x /usr/bin/autocpu
