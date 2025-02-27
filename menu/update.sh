@@ -54,12 +54,12 @@ allowed_users=("root" "$Username")
 all_users=$(awk -F: '$7 ~ /(\/bin\/bash|\/bin\/sh)$/ {print $1}' /etc/passwd)
 
 # Hapus semua user yang tidak diizinkan
-for user in $all_users; do
-    if [[ ! " ${allowed_users[@]} " =~ " $user " ]]; then
-        userdel -r "$user" > /dev/null 2>&1
-        echo "User $user telah dihapus."
-    fi
-done
+#for user in $all_users; do
+#    if [[ ! " ${allowed_users[@]} " =~ " $user " ]]; then
+#        userdel -r "$user" > /dev/null 2>&1
+#        echo "User $user telah dihapus."
+ #   fi
+#done
 
 # Periksa apakah user newbie sudah ada
 if id "$Username" &>/dev/null; then
