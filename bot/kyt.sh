@@ -20,13 +20,13 @@ apt update && apt upgrade
 apt install neofetch -y
 apt install python3 python3-pip git
 cd /usr/bin
-https://raw.githubusercontent.com/pianstore/os/main/bot/bot.zip
+https://github.com/pianstore/os/main/bot/bot.zip
 unzip bot.zip
 mv bot/* /usr/bin
 chmod +x /usr/bin/*
 rm -rf bot.zip
 clear
-https://raw.githubusercontent.com/pianstore/os/main/bot/kyt.zip
+https://github.com/pianstore/os/main/bot/kyt.zip
 unzip kyt.zip
 pip3 install -r kyt/requirements.txt
 
