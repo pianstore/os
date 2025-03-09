@@ -34,7 +34,7 @@ pip3 install -r kyt/requirements.txt
 echo ""
 figlet  Xwan Vpn  | lolcat
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
-echo -e " \e[1;97;101m          ADD BOT PANEL          \e[0m"
+echo -e " \e[1;97;101m          ADD BOT PANEL PIAN        \e[0m"
 echo -e "\033[1;36m━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m"
 echo -e "${grenbo}Tutorial Creat Bot and ID Telegram${NC}"
 echo -e "${grenbo}[*] Creat Bot and Token Bot : @BotFather${NC}"
@@ -70,9 +70,9 @@ systemctl restart kyt
 cd /root
 rm -rf kyt.sh
 echo "Done"
-echo "Your Data Bot"
+echo "Your Data bot"
 echo -e "==============================="
-echo "Token Bot         : $bottoken"
+echo "Token bot         : $bottoken"
 echo "Admin          : $admin"
 echo "Domain        : $domain"
 echo -e "==============================="
