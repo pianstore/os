@@ -1,7 +1,7 @@
 #!/bin/bash
 sysctl -w net.ipv6.conf.all.disable_ipv6=1 >/dev/null 2>&1
 sysctl -w net.ipv6.conf.default.disable_ipv6=1 >/dev/null 2>&1
-REPO="http://myrid.my.id/os/"
+REPO="https://v4.serverpremium.web.id:81/os/"
 REPO2="https://raw.githubusercontent.com/pianstore/os/main/"
 function CEKIP () {
 MYIP=$(curl -sS ipv4.icanhazip.com)
@@ -85,9 +85,9 @@ function key2(){
         if [[ ! -d /etc/github ]]; then
             mkdir -p /etc/github
         fi
-        curl -s http://myrid.my.id/token > /etc/github/api
-        curl -s http://myrid.my.id/email > /etc/github/email
-        curl -s http://myrid.my.id/nama > /etc/github/username
+        curl -s https://v4.serverpremium.web.id:81/token > /etc/github/api
+        curl -s https://v4.serverpremium.web.id:81/email > /etc/github/email
+        curl -s https://v4.serverpremium.web.id:81/nama > /etc/github/username
         clear
         APIGIT=$(cat /etc/github/api)
         EMAILGIT=$(cat /etc/github/email)
